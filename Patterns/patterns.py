@@ -92,4 +92,43 @@ def arrowLeft(n):
                     print("*", end = " ")
                 else:
                     print(" ", end = " ")
-        print("\n")            
+        print("\n")
+def binaryTriangle(n):
+    for i in range(n):
+        for j in range(i+1):
+            if (i +j)%2 == 0:
+                print("1",end = " ")
+            else:
+                print("0", end = " ")
+        print("\n")             
+
+def vPattern(n):
+    for i in range(n):
+        for j in range(2*n):
+            if j<=i:
+                print("*", end = " ")
+            elif j>=2*n-i-1:
+                print("*", end = " ")
+            else:
+                print(" ", end = " ")
+        print("\n")
+        
+def vPatternNum(n):
+    for i in range(n):
+        for j in range(2*n):
+            if j<=i:
+                print(j+1, end = " ")
+            elif j>=2*n-i-1:
+                print(2*n-j, end = " ")
+            else:
+                print(" ", end = " ")
+        print("\n")
+
+def countingPattern(n):
+    a = 1
+    for i in range(n):
+        for j in range(i+1):
+            print(a, end = " ")
+            a = a+1
+        print("\n")
+

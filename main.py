@@ -30,6 +30,14 @@ elif b == "ar":
     arrowRight(a)
 elif b == "al":
     arrowLeft(a)
+elif b == "bt":
+    binaryTriangle(a)
+elif b == "vp":
+    vPattern(a)
+elif b == "vpn":
+    vPatternNum(a)
+elif b ==  "cp":
+    countingPattern(a)
 
 
 else :
