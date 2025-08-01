@@ -28,6 +28,8 @@ elif b == "di":
     arrowDown(a)
 elif b == "ar":
     arrowRight(a)
+elif b == "al":
+    arrowLeft(a)
 
 
 else :

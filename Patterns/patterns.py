@@ -79,3 +79,17 @@ def arrowRight(n):
             for j in range(2*n-i-1):
                 print("*", end = " ")
             print("\n")
+def arrowLeft(n):
+    for i in range(2*n-1):
+        for j in range(n):
+            if i<n:
+                if j >= n-1-i:
+                    print("*", end = " ")
+                else:
+                    print(" ", end = " ")
+            else:
+                if j>= i-n+1:
+                    print("*", end = " ")
+                else:
+                    print(" ", end = " ")
+        print("\n")            
