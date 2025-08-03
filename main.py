@@ -40,6 +40,8 @@ elif b ==  "cp":
     countingPattern(a)
 elif b == "abcd":
     abcdPattern(a)
+elif b == "rabc":
+    abcdRevPattern(a)
 
 else :
     print("no such ",b ," pattern found")
