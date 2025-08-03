@@ -38,7 +38,8 @@ elif b == "vpn":
     vPatternNum(a)
 elif b ==  "cp":
     countingPattern(a)
-
+elif b == "abcd":
+    abcdPattern(a)
 
 else :
     print("no such ",b ," pattern found")

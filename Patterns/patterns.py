@@ -131,4 +131,10 @@ def countingPattern(n):
             print(a, end = " ")
             a = a+1
         print("\n")
+        
+def abcdPattern(n):
+    for i in range(n):
+        for j in range(i + 1):
+            print(chr(65 + j), end=" ")
+        print()
 
