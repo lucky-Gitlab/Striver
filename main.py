@@ -42,6 +42,9 @@ elif b == "abcd":
     abcdPattern(a)
 elif b == "rabc":
     abcdRevPattern(a)
-
-else :
+elif b == "sabc":
+    abcdStaticPattern(a)
+elif b == "tabc":
+     abcTriangle(a)
+else:
     print("no such ",b ," pattern found")

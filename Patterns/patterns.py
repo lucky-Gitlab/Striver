@@ -143,4 +143,20 @@ def abcdRevPattern(n):
         for j in range(n-i):
             print(chr(65+j), end =" ")
         print()
+        
+def abcdStaticPattern(n):
+    for i in range(n):
+        for j in range(i+1):
+            print(chr(65+i), end = " ")
+        print()
 
+def  abcTriangle(n):
+    for i in range(n):
+        for j  in range(n+i):
+            if j>= n-i-1 and j<n :
+                print(chr(65+j-(n-i-1)), end = " ")
+            elif j>= n:
+                print(chr(65-j+(n+i-1)), end = " ")
+            else:
+                print(" ", end = " ")
+        print()
