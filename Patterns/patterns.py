@@ -124,6 +124,17 @@ def vPatternNum(n):
                 print(" ", end = " ")
         print("\n")
 
+def vRevPattern(n):
+    for i in range(n):
+        for j in range(2*n):
+            if j<=n-i:
+                print("*", end = " ")
+            elif j>n+i:
+                print("*", end = " ")
+            else:
+                print(" ", end = " ")
+        print("\n")
+
 def countingPattern(n):
     a = 1
     for i in range(n):
@@ -143,7 +154,7 @@ def abcdRevPattern(n):
         for j in range(n-i):
             print(chr(65+j), end =" ")
         print()
-        
+
 def abcdStaticPattern(n):
     for i in range(n):
         for j in range(i+1):
@@ -159,4 +170,9 @@ def  abcTriangle(n):
                 print(chr(65-j+(n+i-1)), end = " ")
             else:
                 print(" ", end = " ")
+        print()
+def edcTriangle(n):
+    for i in range(n):
+        for j in range(i+1):
+            print(chr(65+n-1-i+j), end = " ")
         print()

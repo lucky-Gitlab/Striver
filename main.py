@@ -36,6 +36,11 @@ elif b == "vp":
     vPattern(a)
 elif b == "vpn":
     vPatternNum(a)
+elif b == "rvpn":
+    vRevPattern(a)
+elif b == "wvpn":
+    vRevPattern(a)
+    vPattern(a)
 elif b ==  "cp":
     countingPattern(a)
 elif b == "abcd":
@@ -46,5 +51,7 @@ elif b == "sabc":
     abcdStaticPattern(a)
 elif b == "tabc":
      abcTriangle(a)
+elif b == "tedc":
+    edcTriangle(a)
 else:
     print("no such ",b ," pattern found")
