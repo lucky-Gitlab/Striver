@@ -176,3 +176,14 @@ def edcTriangle(n):
         for j in range(i+1):
             print(chr(65+n-1-i+j), end = " ")
         print()
+def hollowRectangle(n):
+    for i in range(n):
+        for j in range(n-1):
+            if i == 0 or i == n-1:
+                print("*", end = " ")
+            else:
+                if j == 0 or j == n-2:
+                    print("*", end = " ")
+                else:
+                    print(" ",end = " ")
+        print("\n")

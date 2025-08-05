@@ -48,7 +48,7 @@ elif b == "xvpn":
 elif b ==  "cp":
     countingPattern(a)
 elif b == "abcd":
-    abcdPattern(a)
+    abcdPattern
 elif b == "rabc":
     abcdRevPattern(a)
 elif b == "sabc":
@@ -57,5 +57,7 @@ elif b == "tabc":
      abcTriangle(a)
 elif b == "tedc":
     edcTriangle(a)
+elif b == "hr":
+    hollowRectangle(a)
 else:
     print("no such ",b ," pattern found")
