@@ -59,5 +59,7 @@ elif b == "tedc":
     edcTriangle(a)
 elif b == "hr":
     hollowRectangle(a)
+elif b == "cRect":
+    countRectangle(a)
 else:
     print("no such ",b ," pattern found")

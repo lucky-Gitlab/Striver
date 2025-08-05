@@ -187,3 +187,14 @@ def hollowRectangle(n):
                 else:
                     print(" ",end = " ")
         print("\n")
+def countRectangle(n):
+    for i in range(2*n-1):
+        for j in range(2*n-1):
+            top = i
+            left = j
+            right = (2*n -1)-1-j
+            bottom = (2*n-1)-1-i
+            value = min(top, left, right, bottom)
+            print(n-value, end = " ")
+            
+        print("\n")
