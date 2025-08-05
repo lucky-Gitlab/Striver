@@ -127,9 +127,9 @@ def vPatternNum(n):
 def vRevPattern(n):
     for i in range(n):
         for j in range(2*n):
-            if j<=n-i:
+            if j<=n-i-1:
                 print("*", end = " ")
-            elif j>n+i:
+            elif j>=n+i:
                 print("*", end = " ")
             else:
                 print(" ", end = " ")

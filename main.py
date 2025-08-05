@@ -41,6 +41,10 @@ elif b == "rvpn":
 elif b == "wvpn":
     vRevPattern(a)
     vPattern(a)
+elif b == "xvpn":
+    vPattern(a)
+    vRevPattern(a)
+
 elif b ==  "cp":
     countingPattern(a)
 elif b == "abcd":
