@@ -1,5 +1,15 @@
-from Recurssions.basicRecurssion import *
-printNumR(10)
+a = 5
+b = 6
+sum = a +b
+multi = a * b
+divide = a / b
+print(sum, multi , divide)
+print()
+
+
+
+# from Recurssions.basicRecurssion import *
+# printNumR(10)
 
 
 # from Patterns.patterns import *
